@@ -12,7 +12,7 @@ source:
 
 build:
   skip: True  # [py2k or win]
-  number: 0
+  number: 1000
   script: python -m pip install --no-deps --ignore-installed .
   entry_points:
     - snoopy-log-collator = snoopy_log_collator.__main__:main
