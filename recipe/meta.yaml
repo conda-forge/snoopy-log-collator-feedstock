@@ -1,6 +1,6 @@
 {% set name = "snoopy-log-collator" %}
-{% set version = "0.6.1" %}
-{% set sha256 = "7d3407fff3d66853c96e087f22397ead832e5d5ea0d835bd288032d834b91e7e" %}
+{% set version = "0.6.2" %}
+{% set sha256 = "f916726f9a18c204fe0df2c346cbb1c136056fefa715467756751f101af9913e" %}
 
 package:
   name: {{ name|lower }}
