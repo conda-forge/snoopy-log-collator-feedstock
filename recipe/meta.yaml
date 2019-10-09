@@ -1,6 +1,6 @@
 {% set name = "snoopy-log-collator" %}
-{% set version = "0.6.3" %}
-{% set sha256 = "e7276de638ccca6845710c6c66f75fd4a52474d49b0043789af1e188ae04797d" %}
+{% set version = "0.7.2" %}
+{% set sha256 = "946611344daf756ef431a95c7698a332e2ed22dbc7c684a548e5ad4e173ccf6b" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
 
 build:
   skip: True  # [py2k or win]
-  number: 1000
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
   entry_points:
     - snoopy-log-collator = snoopy_log_collator.__main__:main
